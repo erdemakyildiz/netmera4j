@@ -15,7 +15,7 @@ import java.util.Map;
 public class Target {
     protected Location location;
     protected boolean sendToAll;
-    protected String extId;
+    protected List<String> extId;
     protected String deviceToken;
     protected Map<String, List<Object>> profile;
 
@@ -30,7 +30,7 @@ public class Target {
     public static class TargetBuilder {
         protected Location location;
         protected boolean sendToAll;
-        protected String extId;
+        protected List<String> extId;
         protected String deviceToken;
         protected Map<String, List<Object>> profile;
 
@@ -44,7 +44,7 @@ public class Target {
             return this;
         }
 
-        public TargetBuilder externalId(String externalId) {
+        public TargetBuilder externalId(List<String> externalId) {
             this.extId = externalId;
             return this;
         }

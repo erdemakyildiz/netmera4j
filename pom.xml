@@ -4,10 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.muratkaragozgil</groupId>
-    <artifactId>netmera4j</artifactId>
-    <version>1.6</version>
-
+    <groupId>com.github.erdemakyildiz</groupId>
+    <artifactId>netmera4j-fork</artifactId>
+    <version>1.0</version>
 
     <name>Netmera4j</name>
     <description>A pleasant and complete Java wrapper for the Netmera Rest Api!</description>
@@ -28,12 +27,6 @@
             <id>muratkaragozgil</id>
         </developer>
     </developers>
-
-    <scm>
-        <connection>scm:git:git://github.com/muratkaragozgil/netmera4j.git</connection>
-        <developerConnection>scm:git:ssh://github.com:muratkaragozgil/netmera4j.git</developerConnection>
-        <url>http://github.com/muratkaragozgil/netmera4j/tree/master</url>
-    </scm>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
