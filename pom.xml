@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.erdemakyildiz</groupId>
-    <artifactId>netmera4j-fork</artifactId>
+    <artifactId>netmera4j</artifactId>
     <version>1.0</version>
 
     <name>Netmera4j</name>
